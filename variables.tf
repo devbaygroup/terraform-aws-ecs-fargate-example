@@ -41,3 +41,7 @@ variable "health_check_path" {
   type    = string
   default = "/"
 }
+
+variable "domain_name" {
+  type = string
+}

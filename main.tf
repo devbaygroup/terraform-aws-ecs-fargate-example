@@ -1,5 +1,3 @@
-
-
 #tfsec:ignore:aws-cloudwatch-log-group-customer-key
 resource "aws_cloudwatch_log_group" "this" {
   retention_in_days = 14

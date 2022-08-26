@@ -36,6 +36,7 @@
 |------|-------------|------|---------|:--------:|
 | alb\_id | n/a | `string` | n/a | yes |
 | aws\_region | n/a | `string` | n/a | yes |
+| domain\_name | n/a | `string` | n/a | yes |
 | ecs\_cluster\_id | n/a | `string` | n/a | yes |
 | ecs\_cluster\_name | n/a | `string` | n/a | yes |
 | health\_check\_path | n/a | `string` | `"/"` | no |

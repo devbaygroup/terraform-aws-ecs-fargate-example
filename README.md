@@ -36,11 +36,13 @@
 |------|-------------|------|---------|:--------:|
 | alb\_id | n/a | `string` | n/a | yes |
 | aws\_region | n/a | `string` | n/a | yes |
+| cpu\_scaling\_threshold | Minimum CPU usage to trigger scaling activity | `number` | `60` | no |
 | domain\_name | n/a | `string` | n/a | yes |
 | ecs\_cluster\_id | n/a | `string` | n/a | yes |
 | ecs\_cluster\_name | n/a | `string` | n/a | yes |
 | health\_check\_path | n/a | `string` | `"/"` | no |
 | image\_uri | ECS image uri | `string` | n/a | yes |
+| memory\_scaling\_threshold | Minimum memory usage to trigger scaling activity | `number` | `60` | no |
 | service\_name | ECS service name | `string` | n/a | yes |
 | subnet\_id | n/a | `list(string)` | n/a | yes |
 | task\_role | ECS task role arn | `string` | n/a | yes |

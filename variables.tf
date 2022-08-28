@@ -45,3 +45,15 @@ variable "health_check_path" {
 variable "domain_name" {
   type = string
 }
+
+variable "cpu_scaling_threshold" {
+  type        = number
+  description = "Minimum CPU usage to trigger scaling activity"
+  default     = 60
+}
+
+variable "memory_scaling_threshold" {
+  type        = number
+  description = "Minimum memory usage to trigger scaling activity"
+  default     = 60
+}
